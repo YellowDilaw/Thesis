@@ -1,0 +1,121 @@
+.headtext {
+  font-family: "Poppins";
+  font-size: 100px;
+  font-weight: bold;
+  color: #051D40;
+  margin-bottom:100px;
+}
+
+
+.subti{
+  font-family: "Poppins";
+  font-size: 13px;
+  font-weight: 500;
+  color: #1976D2;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 270px;
+}
+
+.form{
+  font-family: "Poppins";
+  font-size: 15px;
+  font-weight: bold;
+  color: #051D40;
+}
+
+.rounded-input {
+  padding: 10px;
+  border-radius: 50px;
+  border: 2px solid gray;
+  width: 500px;
+}
+
+.round-butt {
+  padding: 10px;
+  border-radius: 8px;
+  color: white;
+  background-color: #051D40;
+  border: 2px solid black;
+  width: 230px;
+}
+
+:root {
+  --color-light: white;
+  --color-dark: #212121;
+  --color-signal: #051D40;
+  --color-background: var(--color-light);
+  --color-text: var(--color-dark);
+  --color-accent: var(--color-signal);
+  --size-bezel: .5rem;
+  --size-radius: 8px;
+  line-height: 1.4;
+  color: var(--color-text);
+  background: var(--color-background);
+  padding: 0 calc(var(--size-bezel) * 3);
+}
+
+.input {
+  position: relative;
+}
+
+.input__label {
+  position: absolute;
+  left: 0;
+  top: 0;
+  padding: calc(var(--size-bezel) * 0.75) calc(var(--size-bezel) * 0.5);
+  margin: calc(var(--size-bezel) * 0.75 + 3px) calc(var(--size-bezel) * 0.5);
+  background: pink;
+  white-space: nowrap;
+  transform: translate(0, 0);
+  transform-origin: 0 0;
+  background: var(--color-background);
+  transition: transform 120ms ease-in;
+  font-weight: bold;
+  line-height: 1.2;
+}
+
+.input__field {
+  box-sizing: border-box;
+  display: block;
+  width: 400px;
+  border: 3px solid currentColor;
+  padding: calc(var(--size-bezel) * 1.5) var(--size-bezel);
+  color: currentColor;
+  background: transparent;
+  border-radius: var(--size-radius);
+}
+
+.input__field:focus + .input__label, .input__field:not(:placeholder-shown) + .input__label {
+  transform: translate(0.25rem, -65%) scale(0.8);
+  color: var(--color-accent);
+}
+
+.button-group {
+  margin-top: calc(var(--size-bezel) * 2.5);
+}
+
+.head-quest{
+  font-family: "Poppins";
+  font-size: 40px;
+  font-weight: bold;
+  color: #051D40;
+  margin-bottom:20px;
+}
+
+.pq{
+  font-family: "Poppins";
+  font-size: 15px;
+  font-weight: bold;
+  color: #051D40;
+  margin-bottom:50px;
+}
+
+.form-check-label{
+  font-weight: bold;
+}
+
+.submit-q-btn{
+  margin-bottom:100px;
+}
+
